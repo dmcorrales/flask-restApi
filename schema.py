@@ -1,4 +1,4 @@
-from __init__ import ma
+from .extensions import ma
 
 
 class TaskSchema(ma.Schema):

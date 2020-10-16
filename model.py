@@ -1,4 +1,4 @@
-from __init__ import db
+from .extensions import db
 
 
 class Task(db.Model):
@@ -9,6 +9,4 @@ class Task(db.Model):
     def __init__(self, title, description):
         self.title = title
         self.description = description
-
-
-db.create_all()
+        db.create_all()

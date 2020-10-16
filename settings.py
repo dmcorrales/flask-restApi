@@ -1,2 +1,2 @@
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://sample'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
